@@ -1,0 +1,1221 @@
+{
+    "data": {
+        "layoutConfigs": {
+            "id": "657ca49950374e24e930c245",
+            "layouts": [
+                {
+                    "layoutId": "65133294fb546031cae02ed1",
+                    "theme": null,
+                    "preset": {
+                        "palette": null,
+                        "containerType": "verso-flat-package",
+                        "name": "Editorial Initiative",
+                        "presetCategory": null,
+                        "containerImage": null
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "carousel"
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "stack"
+                                    ]
+                                },
+                                "header": {
+                                    "showImage": true,
+                                    "imageSize": "icon"
+                                }
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": true,
+                                    "showRubric": false,
+                                    "showBylines": true,
+                                    "showPublishDate": false
+                                }
+                            }
+                        }
+                    },
+                    "renditionConfigs": [
+                        {
+                            "name": "items",
+                            "config": {
+                                "sm": {
+                                    "aspectRatio": "4:3"
+                                },
+                                "md": null,
+                                "lg": {
+                                    "aspectRatio": "4:3"
+                                },
+                                "xl": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "layoutId": "6570f1548e4764c0fe3ed2a3",
+                    "theme": "comment",
+                    "preset": {
+                        "palette": null,
+                        "containerType": "verso-flat-package",
+                        "name": "Comment",
+                        "presetCategory": null,
+                        "containerImage": null
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "river",
+                                    "river",
+                                    "grid"
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "dense",
+                                        "side-by-side",
+                                        "stack"
+                                    ]
+                                },
+                                "header": {
+                                    "showImage": false
+                                },
+                                "itemStyleSettings": {
+                                    "default": [
+                                        {},
+                                        {},
+                                        {
+                                            "textAlign": "center"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": false,
+                                    "showRubric": false,
+                                    "showPublishDate": false,
+                                    "showBylines": true
+                                },
+                                "isContributor": true,
+                                "bylinesPosition": "top"
+                            }
+                        }
+                    },
+                    "renditionConfigs": [
+                        {
+                            "name": "items",
+                            "config": {
+                                "sm": {
+                                    "aspectRatio": "1:1"
+                                },
+                                "md": null,
+                                "lg": {
+                                    "aspectRatio": "1:1"
+                                },
+                                "xl": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "layoutId": "657c970757c9559feabf60da",
+                    "theme": null,
+                    "preset": {
+                        "palette": "TRANSPARENT",
+                        "containerType": "verso-focus-package",
+                        "name": "Text-Overlay",
+                        "presetCategory": "TEXT_OVERLAY",
+                        "containerImage": null
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "grid",
+                                    "grid",
+                                    "grid"
+                                ],
+                                "styleSettings": [
+                                    {
+                                        "fullBleed": true
+                                    },
+                                    {},
+                                    {}
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "overlay",
+                                        "overlay",
+                                        "overlay"
+                                    ]
+                                },
+                                "itemStyleSettings": {
+                                    "default": [
+                                        {
+                                            "textAlign": "end"
+                                        },
+                                        {
+                                            "textAlign": "end"
+                                        },
+                                        {
+                                            "textAlign": "end"
+                                        }
+                                    ]
+                                },
+                                "showHeader": false
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": true,
+                                    "showRubric": true,
+                                    "showBylines": true,
+                                    "showPublishDate": false
+                                }
+                            }
+                        }
+                    },
+                    "renditionConfigs": [
+                        {
+                            "name": "items",
+                            "config": {
+                                "sm": {
+                                    "aspectRatio": "3:4"
+                                },
+                                "md": null,
+                                "lg": {
+                                    "aspectRatio": "16:9"
+                                },
+                                "xl": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "layoutId": "6578d1d3c2e6660de50dcaeb",
+                    "theme": null,
+                    "preset": {
+                        "palette": "STANDARD",
+                        "containerType": "verso-focus-package",
+                        "name": "Inset Standard",
+                        "presetCategory": "SPLIT_SCREEN",
+                        "containerImage": null
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "grid",
+                                    "grid",
+                                    "grid"
+                                ],
+                                "styleSettings": [
+                                    {
+                                        "fullBleed": true
+                                    },
+                                    {},
+                                    {}
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "stack",
+                                        "side-by-side",
+                                        "side-by-side"
+                                    ]
+                                },
+                                "itemStyleSettings": {
+                                    "default": [
+                                        {
+                                            "image": {
+                                                "inset": true
+                                            }
+                                        },
+                                        {
+                                            "textAlign": "center",
+                                            "image": {
+                                                "inset": true
+                                            }
+                                        },
+                                        {
+                                            "textAlign": "center",
+                                            "image": {
+                                                "inset": true
+                                            }
+                                        }
+                                    ]
+                                },
+                                "showHeader": false
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": true,
+                                    "showRubric": true,
+                                    "showBylines": true,
+                                    "showPublishDate": false
+                                },
+                                "textPosition": "end"
+                            }
+                        }
+                    },
+                    "renditionConfigs": [
+                        {
+                            "name": "items",
+                            "config": {
+                                "sm": null,
+                                "md": null,
+                                "lg": {
+                                    "aspectRatio": "4:3"
+                                },
+                                "xl": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "layoutId": "657c93b25456b9ce6a54e939",
+                    "theme": null,
+                    "preset": {
+                        "palette": null,
+                        "containerType": "verso-flat-package",
+                        "name": "Topic",
+                        "presetCategory": null,
+                        "containerImage": null
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "river",
+                                    "river",
+                                    "grid"
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "dense",
+                                        "side-by-side",
+                                        "stack"
+                                    ]
+                                },
+                                "header": {
+                                    "softRule": true,
+                                    "showImage": false
+                                }
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": true,
+                                    "showRubric": false,
+                                    "showBylines": true,
+                                    "showPublishDate": false
+                                }
+                            }
+                        }
+                    },
+                    "renditionConfigs": [
+                        {
+                            "name": "items",
+                            "config": {
+                                "sm": {
+                                    "aspectRatio": "4:3"
+                                },
+                                "md": null,
+                                "lg": {
+                                    "aspectRatio": "4:3"
+                                },
+                                "xl": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "layoutId": "65723ee6f2096ef9ea4c83b7",
+                    "theme": null,
+                    "preset": {
+                        "palette": "INVERTED",
+                        "containerType": "verso-focus-package",
+                        "name": "Inset Inverse",
+                        "presetCategory": "SPLIT_SCREEN",
+                        "containerImage": null
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "grid",
+                                    "grid",
+                                    "grid"
+                                ],
+                                "styleSettings": [
+                                    {
+                                        "fullBleed": true
+                                    },
+                                    {},
+                                    {}
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "stack",
+                                        "side-by-side",
+                                        "side-by-side"
+                                    ]
+                                },
+                                "itemStyleSettings": {
+                                    "default": [
+                                        {
+                                            "image": {
+                                                "inset": true
+                                            }
+                                        },
+                                        {
+                                            "textAlign": "center",
+                                            "image": {
+                                                "inset": true
+                                            }
+                                        },
+                                        {
+                                            "textAlign": "center",
+                                            "image": {
+                                                "inset": true
+                                            }
+                                        }
+                                    ]
+                                },
+                                "showHeader": false
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": true,
+                                    "showRubric": true,
+                                    "showBylines": false,
+                                    "showPublishDate": false
+                                },
+                                "textPosition": "end"
+                            }
+                        }
+                    },
+                    "renditionConfigs": [
+                        {
+                            "name": "items",
+                            "config": {
+                                "sm": {
+                                    "aspectRatio": "3:4"
+                                },
+                                "md": null,
+                                "lg": {
+                                    "aspectRatio": "3:4"
+                                },
+                                "xl": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "layoutId": "652dac4c049a7417af1a2ecb",
+                    "theme": "puzzles-and-games",
+                    "preset": {
+                        "palette": null,
+                        "containerType": "verso-puzzles-games-package",
+                        "name": "Cartoons & Puzzles Issue",
+                        "presetCategory": null,
+                        "containerImage": null
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "carousel"
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "stack"
+                                    ]
+                                },
+                                "header": {
+                                    "softRule": true
+                                },
+                                "showItemDivider": false
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": true,
+                                    "showRubric": true
+                                }
+                            }
+                        }
+                    },
+                    "renditionConfigs": [
+                        {
+                            "name": "items",
+                            "config": {
+                                "sm": {
+                                    "aspectRatio": "4:3"
+                                },
+                                "md": null,
+                                "lg": {
+                                    "aspectRatio": "4:3"
+                                },
+                                "xl": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "layoutId": "65303716ed0f4ae933f035df",
+                    "theme": null,
+                    "preset": {
+                        "palette": null,
+                        "containerType": "verso-flat-package",
+                        "name": "Editorial Initiative",
+                        "presetCategory": null,
+                        "containerImage": null
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "carousel"
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "stack"
+                                    ]
+                                },
+                                "header": {
+                                    "showImage": true,
+                                    "imageSize": "icon"
+                                }
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": true,
+                                    "showRubric": false,
+                                    "showBylines": true,
+                                    "showPublishDate": false
+                                }
+                            }
+                        }
+                    },
+                    "renditionConfigs": [
+                        {
+                            "name": "items",
+                            "config": {
+                                "sm": {
+                                    "aspectRatio": "4:3"
+                                },
+                                "md": null,
+                                "lg": {
+                                    "aspectRatio": "4:3"
+                                },
+                                "xl": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "layoutId": "6578d1d3c2e6660de50dcaea",
+                    "theme": null,
+                    "preset": {
+                        "palette": "TRANSPARENT",
+                        "containerType": "verso-focus-package",
+                        "name": "Text-Overlay",
+                        "presetCategory": "TEXT_OVERLAY",
+                        "containerImage": null
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "grid",
+                                    "grid",
+                                    "grid"
+                                ],
+                                "styleSettings": [
+                                    {
+                                        "fullBleed": true
+                                    },
+                                    {},
+                                    {}
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "overlay",
+                                        "overlay",
+                                        "overlay"
+                                    ]
+                                },
+                                "itemStyleSettings": {
+                                    "default": [
+                                        {
+                                            "textAlign": "end"
+                                        },
+                                        {
+                                            "textAlign": "end"
+                                        },
+                                        {
+                                            "textAlign": "end"
+                                        }
+                                    ]
+                                },
+                                "showHeader": false
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": true,
+                                    "showRubric": true,
+                                    "showBylines": true,
+                                    "showPublishDate": false
+                                }
+                            }
+                        }
+                    },
+                    "renditionConfigs": [
+                        {
+                            "name": "items",
+                            "config": {
+                                "sm": null,
+                                "md": null,
+                                "lg": {
+                                    "aspectRatio": "16:9"
+                                },
+                                "xl": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "layoutId": "64f8ed16295d83baa4072b8f",
+                    "theme": null,
+                    "preset": {
+                        "palette": null,
+                        "containerType": "verso-flat-package",
+                        "name": "The Critics",
+                        "presetCategory": null,
+                        "containerImage": {
+                            "altText": "Theater seats with one person looking up",
+                            "filename": "HP-Header-Critics.gif",
+                            "id": "64e79102ce06f9bdcd2d0031"
+                        }
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "river",
+                                    "river",
+                                    "grid"
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "dense",
+                                        "side-by-side",
+                                        "stack"
+                                    ]
+                                },
+                                "itemStyleSettings": {
+                                    "default": [
+                                        {},
+                                        {},
+                                        {
+                                            "image": {
+                                                "inset": true
+                                            },
+                                            "textAlign": "center"
+                                        }
+                                    ]
+                                },
+                                "header": {
+                                    "imagePosition": "below",
+                                    "showImage": true
+                                }
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": true,
+                                    "showRubric": true,
+                                    "showBylines": true,
+                                    "showPublishDate": false
+                                }
+                            }
+                        }
+                    },
+                    "renditionConfigs": [
+                        {
+                            "name": "items",
+                            "config": {
+                                "sm": {
+                                    "aspectRatio": "4:3"
+                                },
+                                "md": null,
+                                "lg": {
+                                    "aspectRatio": "3:4"
+                                },
+                                "xl": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "layoutId": "657b72503bf8c9cd7f3fca6b",
+                    "theme": null,
+                    "preset": {
+                        "palette": "INVERTED",
+                        "containerType": "verso-focus-package",
+                        "name": "Inset Inverse",
+                        "presetCategory": "SPLIT_SCREEN",
+                        "containerImage": null
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "grid",
+                                    "grid",
+                                    "grid"
+                                ],
+                                "styleSettings": [
+                                    {
+                                        "fullBleed": true
+                                    },
+                                    {},
+                                    {}
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "stack",
+                                        "side-by-side",
+                                        "side-by-side"
+                                    ]
+                                },
+                                "itemStyleSettings": {
+                                    "default": [
+                                        {
+                                            "image": {
+                                                "inset": true
+                                            }
+                                        },
+                                        {
+                                            "textAlign": "center",
+                                            "image": {
+                                                "inset": true
+                                            }
+                                        },
+                                        {
+                                            "textAlign": "center",
+                                            "image": {
+                                                "inset": true
+                                            }
+                                        }
+                                    ]
+                                },
+                                "showHeader": false
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": true,
+                                    "showRubric": true,
+                                    "showBylines": true,
+                                    "showPublishDate": false
+                                },
+                                "textPosition": "end"
+                            }
+                        }
+                    },
+                    "renditionConfigs": []
+                },
+                {
+                    "layoutId": "6578daef1243c5ea04d274de",
+                    "theme": null,
+                    "preset": {
+                        "palette": null,
+                        "containerType": "verso-flat-package",
+                        "name": "Editorial Initiative",
+                        "presetCategory": null,
+                        "containerImage": null
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "carousel"
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "stack"
+                                    ]
+                                },
+                                "header": {
+                                    "showImage": true,
+                                    "imageSize": "icon"
+                                }
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": true,
+                                    "showRubric": false,
+                                    "showBylines": true,
+                                    "showPublishDate": false
+                                }
+                            }
+                        }
+                    },
+                    "renditionConfigs": [
+                        {
+                            "name": "items",
+                            "config": {
+                                "sm": {
+                                    "aspectRatio": "2:2"
+                                },
+                                "md": null,
+                                "lg": {
+                                    "aspectRatio": "2:2"
+                                },
+                                "xl": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "layoutId": "65723edd5a1407461ae12fb9",
+                    "theme": null,
+                    "preset": {
+                        "palette": "STANDARD",
+                        "containerType": "verso-focus-package",
+                        "name": "Inset Standard",
+                        "presetCategory": "SPLIT_SCREEN",
+                        "containerImage": null
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "grid",
+                                    "grid",
+                                    "grid"
+                                ],
+                                "styleSettings": [
+                                    {
+                                        "fullBleed": true
+                                    },
+                                    {},
+                                    {}
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "stack",
+                                        "side-by-side",
+                                        "side-by-side"
+                                    ]
+                                },
+                                "itemStyleSettings": {
+                                    "default": [
+                                        {
+                                            "image": {
+                                                "inset": true
+                                            }
+                                        },
+                                        {
+                                            "textAlign": "center",
+                                            "image": {
+                                                "inset": true
+                                            }
+                                        },
+                                        {
+                                            "textAlign": "center",
+                                            "image": {
+                                                "inset": true
+                                            }
+                                        }
+                                    ]
+                                },
+                                "showHeader": false
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": true,
+                                    "showRubric": true,
+                                    "showBylines": true,
+                                    "showPublishDate": false
+                                },
+                                "textPosition": "start"
+                            }
+                        }
+                    },
+                    "renditionConfigs": []
+                },
+                {
+                    "layoutId": "65554784206741b5745330c4",
+                    "theme": null,
+                    "preset": {
+                        "palette": null,
+                        "containerType": "verso-flat-package",
+                        "name": "Topic",
+                        "presetCategory": null,
+                        "containerImage": null
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "river",
+                                    "river",
+                                    "grid"
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "dense",
+                                        "side-by-side",
+                                        "stack"
+                                    ]
+                                },
+                                "header": {
+                                    "softRule": true,
+                                    "showImage": false
+                                }
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": false,
+                                    "showRubric": false,
+                                    "showBylines": true,
+                                    "showPublishDate": false
+                                }
+                            }
+                        }
+                    },
+                    "renditionConfigs": [
+                        {
+                            "name": "items",
+                            "config": {
+                                "sm": {
+                                    "aspectRatio": "4:3"
+                                },
+                                "md": null,
+                                "lg": {
+                                    "aspectRatio": "4:3"
+                                },
+                                "xl": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "layoutId": "65777b50d4c4e3759dc7e5d5",
+                    "theme": null,
+                    "preset": {
+                        "palette": "INVERTED",
+                        "containerType": "verso-focus-package",
+                        "name": "Inset Inverse",
+                        "presetCategory": "SPLIT_SCREEN",
+                        "containerImage": null
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "grid",
+                                    "grid",
+                                    "grid"
+                                ],
+                                "styleSettings": [
+                                    {
+                                        "fullBleed": true
+                                    },
+                                    {},
+                                    {}
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "stack",
+                                        "side-by-side",
+                                        "side-by-side"
+                                    ]
+                                },
+                                "itemStyleSettings": {
+                                    "default": [
+                                        {
+                                            "image": {
+                                                "inset": true
+                                            }
+                                        },
+                                        {
+                                            "textAlign": "center",
+                                            "image": {
+                                                "inset": true
+                                            }
+                                        },
+                                        {
+                                            "textAlign": "center",
+                                            "image": {
+                                                "inset": true
+                                            }
+                                        }
+                                    ]
+                                },
+                                "showHeader": false
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": true,
+                                    "showRubric": true,
+                                    "showBylines": true,
+                                    "showPublishDate": false
+                                },
+                                "textPosition": "start"
+                            }
+                        }
+                    },
+                    "renditionConfigs": []
+                },
+                {
+                    "layoutId": "656900eaed04ddd93d79af7a",
+                    "theme": null,
+                    "preset": {
+                        "palette": null,
+                        "containerType": "verso-flat-package",
+                        "name": "Books & Ideas",
+                        "presetCategory": null,
+                        "containerImage": null
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "river",
+                                    "river",
+                                    "grid"
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "dense",
+                                        "side-by-side",
+                                        "stack"
+                                    ]
+                                },
+                                "header": {
+                                    "softRule": true,
+                                    "showImage": false
+                                },
+                                "itemStyleSettings": {
+                                    "default": [
+                                        {},
+                                        {},
+                                        {
+                                            "image": {
+                                                "inset": true
+                                            },
+                                            "textAlign": "center"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": true,
+                                    "showRubric": false,
+                                    "showBylines": true,
+                                    "showPublishDate": false
+                                }
+                            }
+                        }
+                    },
+                    "renditionConfigs": [
+                        {
+                            "name": "items",
+                            "config": {
+                                "sm": {
+                                    "aspectRatio": "3:4"
+                                },
+                                "md": null,
+                                "lg": {
+                                    "aspectRatio": "3:4"
+                                },
+                                "xl": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "layoutId": "651334e0beba73981475b6fa",
+                    "theme": "talk",
+                    "preset": {
+                        "palette": null,
+                        "containerType": "verso-flat-package",
+                        "name": "Talk",
+                        "presetCategory": null,
+                        "containerImage": {
+                            "altText": "Talk of the Town Header with Eustace Tilly, a manuscript, New York City skyline and an owl.",
+                            "filename": "HP-Header-Talk.gif",
+                            "id": "64e79101eeb2b9a4560ab47c"
+                        }
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "carousel"
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "stack"
+                                    ]
+                                },
+                                "header": {
+                                    "showImage": true
+                                },
+                                "itemStyleSettings": {
+                                    "default": [
+                                        {
+                                            "inset": true
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": false,
+                                    "showRubric": true,
+                                    "showBylines": true,
+                                    "showPublishDate": false
+                                }
+                            }
+                        }
+                    },
+                    "renditionConfigs": [
+                        {
+                            "name": "items",
+                            "config": {
+                                "sm": {
+                                    "aspectRatio": "3:4"
+                                },
+                                "md": null,
+                                "lg": {
+                                    "aspectRatio": "3:4"
+                                },
+                                "xl": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "layoutId": "64ee2a94feab45de126c67a6",
+                    "theme": "shouts-and-murmurs",
+                    "preset": {
+                        "palette": null,
+                        "containerType": "verso-flat-package",
+                        "name": "Shouts & Murmurs",
+                        "presetCategory": null,
+                        "containerImage": {
+                            "altText": "Piano falling from the sky",
+                            "filename": "HP-Header-Shouts.gif",
+                            "id": "64e7910176269da00438602f"
+                        }
+                    },
+                    "componentConfigs": {
+                        "SmartContainer": {
+                            "settings": {
+                                "layout": [
+                                    "carousel"
+                                ],
+                                "itemLayouts": {
+                                    "default": [
+                                        "stack"
+                                    ]
+                                },
+                                "header": {
+                                    "showImage": true,
+                                    "imageSize": "icon"
+                                },
+                                "itemStyleSettings": {
+                                    "default": [
+                                        {
+                                            "textAlign": "center",
+                                            "image": {
+                                                "showOutline": true
+                                            }
+                                        },
+                                        {
+                                            "textAlign": "center",
+                                            "image": {
+                                                "inset": true,
+                                                "showOutline": true
+                                            }
+                                        },
+                                        {
+                                            "textAlign": "center",
+                                            "image": {
+                                                "inset": true,
+                                                "showOutline": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "SmartItem": {
+                            "settings": {
+                                "content": {
+                                    "showDek": false,
+                                    "showRubric": true,
+                                    "showBylines": false,
+                                    "showPublishDate": false
+                                }
+                            }
+                        }
+                    },
+                    "renditionConfigs": [
+                        {
+                            "name": "items",
+                            "config": {
+                                "sm": {
+                                    "aspectRatio": "1:1"
+                                },
+                                "md": null,
+                                "lg": {
+                                    "aspectRatio": "1:1"
+                                },
+                                "xl": null
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
